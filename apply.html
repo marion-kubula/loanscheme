@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100;1,300&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="apply.css">
 </head>
 <body>
     <div class="containers">
             
         <h2>loan application form</h2>
-<form class="forms">
+        <form method="POST" action="Admin.html">
     <div class="box">
     <input type="text" id="fname" placeholder="FirstName" required>
      <input type="text" id="lname" placeholder="LastName" required>
@@ -29,24 +29,23 @@
     </div>
      <br>
      <div class="apply"> 
-        <label for="gender">Gender</label>
-            <input type="radio" id="male" name="gender" value="Male">
+        <p>Gender</p>
+            <input type="radio" id="male" class="gender" name="gender" value="Male">
             <label for="m">Male</label>
-            <input type="radio" id="female" name="gender" value="Female">
+            <input type="radio" id="female" class="gender" name="gender" value="Female">
             <label for="f">Female</label>
           
         </div>
         <div>
             <input type="submit" id="submit" value="send" required> 
         </div>
-        
-     
-   
 </form>
     </div>
-    
+    <div class="apply ">
+
+    </div>
     
    
-<script src="./loan/apply.js"></script>
+<script src="./loan.js"></script>
 </body>
 </html>

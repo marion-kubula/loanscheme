@@ -207,9 +207,7 @@ value{
 display: flex;
 flex-direction: row;
 }
-.apply{
-    display: inline;
-}
+
 #verify{
 font-size: 28px;
 }
